@@ -1,0 +1,208 @@
+@media (max-width:1054px){
+.container{
+    max-width: 800px;
+}
+.homeAbout{
+   font-size: 14px;
+   &__data{
+    >h3{
+        font-size: 24px !important;
+        text-align: center !important;
+        align-self: center;
+    }
+    &>p{
+       align-self: center;
+    }
+    >a{
+        margin: 0 auto;
+    }
+   }
+   &__item{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   }
+   .prof{
+    justify-content: center !important;
+   }
+   
+   &__content{
+        >p{
+            font-size: 23px !important;
+            text-align: center !important;
+        }
+   }
+}
+.project{
+    &-list{
+        justify-content: space-between !important;
+    }
+}
+
+.homeSkills{
+    .skill-conteiner{
+        width: 100%;
+    }
+    &__skills{
+        >h3{
+            font-size: 20px !important;
+            letter-spacing: 1px;
+        }
+        >p{
+            font-size: 17px !important;
+        }
+    }
+}
+.homeAbouPreview{
+    &__content{
+
+    }
+}
+
+
+// страница работы
+
+.worksApps{
+    &__content{
+        justify-content: space-between !important;
+        flex-wrap: wrap;
+        gap: 20px !important;
+    }
+
+}
+.worksSmall{
+    &__content{
+        justify-content: space-between !important;
+        flex-wrap: wrap;
+        gap: 20px !important;
+    }
+}
+}
+@media(max-width:860px){
+    .container{
+        max-width: 600px;
+    }
+    .header{
+        &__list{
+        display: none !important;
+    }
+    }
+    .adaptive-hav{
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    .project{
+        &-list{
+            justify-content: center !important;
+        }
+    }
+    .homeAbout{
+        &__content{
+            width: 500px !important;
+            // overflow: hidden;
+            justify-content: center !important;
+            >p:first-child{
+                width: 100% !important;
+            }
+       }
+    }
+    .homeSkills{
+        &__icon{
+            display: none;
+        }
+        &__skills{
+            width: 100% !important;
+        }
+        &__item{
+            flex-direction: column;
+            gap: 60px;
+        }
+    }
+    .homeAbouPreview{
+        &__content{
+            gap: 60px !important;
+            justify-content: center !important;
+        }
+    }
+    // страница работы
+
+.worksApps{
+    &__content{
+        justify-content: center !important;
+
+    }
+
+}
+.worksSmall{
+    &__content{
+        justify-content: center !important;
+        
+    }
+}
+.homeAbout__data > a{
+    z-index: 0 !important;
+}
+}
+@media(max-width:770px){
+    .header{
+        &__line{
+        display: none !important;
+        }
+    }
+}
+@media(max-width:630px) {
+    .container{
+        width: 400px;
+    }
+    .homeAbout{
+        &__content{
+            width: 400px !important;
+        }
+    }
+    .homeContacts{
+        &__content{
+            flex-direction: column;
+            gap: 10px;
+        }
+        &__text{
+            width: auto !important;
+        }
+    }
+    .footer{
+        &__content{
+            flex-direction: column;
+        }
+    }
+}
+@media(max-width:575px) {
+    .homeAbout{
+        &__data{
+            >h3{
+                width: 400px !important;
+            }
+            p{
+                text-align: center !important;
+                align-self: center !important;
+               
+            }
+        } 
+    }
+    
+}
+@media(max-width:450px) {
+   
+  .container{
+    width:320px !important;
+  }
+  .homeAbout__data > h3{
+    width: auto !important;
+  }
+  .homeAbout__block{
+    width:320px !important;
+  }
+  .homeAbout__content{
+    width:320px !important;
+  }
+    
+}

@@ -5,8 +5,8 @@ section.container
     +CreateH("projects",true)
     .project-list
         +CreatCard("@/static/image/flore.jpg","HTML SCSS Pug VUE","floristman","Описание: Верстка","Live <~>",true,"Cached >=", "https://xarn0.github.io/newWorkWeb/") 
-        +CreatCard("@/static/image/glass.jpg","HTML CSS","Frelanser","Описание","Live <~>",true,"Cached >=", "https://xarn0.github.io/work8/")   
-        +CreatCard("@/static/image/glass.jpg","HTML CSS","Frelanser","Описание","Live <~>",true,"Cached >=", "https://xarn0.github.io/Maket/")  
+        +CreatCard("@/static/image/fler.jpg","HTML CSS","Frelanser","Описание","Live <~>",true,"Cached >=", "https://xarn0.github.io/work8/")   
+        +CreatCard("@/static/image/work8.jpg","HTML CSS","Frelanser","Описание","Live <~>",true,"Cached >=", "https://xarn0.github.io/Maket/")  
 </template>
 
 

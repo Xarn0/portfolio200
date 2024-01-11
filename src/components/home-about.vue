@@ -5,7 +5,7 @@ section.homeAbout.container
         .homeAbout__block
             .homeAbout__data
                 h3 Xarn0  <span>front-end</span>  и не большой  <span>back-end developer</span> 
-                p Он создает адаптивные веб-сайты
+                p Cоздаю адаптивные веб-сайты
                 router-link(:to="{name:'contact'}").link-header-click-me 
                     +CreateBtn("Контакт со мной!")
         .homeAbout__block

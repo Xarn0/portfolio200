@@ -45,6 +45,6 @@ nav {
 }
 
 .animate-enter-active,.animate-leave-active{
-  transition: opacity 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.54);
 }
 </style>

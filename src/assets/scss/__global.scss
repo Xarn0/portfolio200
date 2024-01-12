@@ -70,6 +70,30 @@ text-transform: capitalize;
             object-fit: cover;
             object-position: 50% 50%;
             height: 614px;
+            @media(max-width:1024px) {
+                &{
+                   object-fit: contain; 
+                   height: 480px;
+                }
+                
+                
+            }
+            @media(max-width:768px) {
+                &{
+                   object-fit: contain; 
+                   height: 359px;
+                }
+                
+                
+            }
+            @media(max-width:500px) {
+                &{
+                   object-fit: contain; 
+                   height: 200px;
+                }
+                
+                
+            }
         }
 
     }

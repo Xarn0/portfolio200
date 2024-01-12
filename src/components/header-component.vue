@@ -31,7 +31,7 @@ header.header.container
             li.header__item
                 select.header__select
                     option(value="ru") ru 
-                    option(value="en") en
+                  
         
         div(@click="burgerContent = !burgerContent ").adaptive-hav
                 .logo 

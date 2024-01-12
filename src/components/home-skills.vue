@@ -2,7 +2,7 @@
 include ../assets/pugmix/mixin.pug
 section.homeSkills.container
     .homeSkills__item 
-        +CreateH("skills")
+        +CreateH("Навыки")
     .homeSkills__item.homeSkills__item-list
         .homeSkills__icon
             .homeSkills__icon-react

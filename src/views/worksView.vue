@@ -2,7 +2,7 @@
 include ../assets/pugmix/mixin.pug
 .container
     div.public_margin      
-        +CreatBread("projects","Список моих проектов")
+        +CreatBread("Проекты","Список моих проектов")
     worksAppsBig
     worksSmall
 </template>

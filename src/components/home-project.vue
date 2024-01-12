@@ -2,11 +2,11 @@
 include ../assets/pugmix/mixin.pug
 
 section.container
-    +CreateH("projects",true)
+    +CreateH("Проекты",true)
     .project-list
-        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Live <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
+        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
         //- +CreatCard("@/static/image/work8.jpg","HTML CSS","Sage","Описание: Адаптивный","Live <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  
-        +CreatCard("@/static/image/fler.jpg","HTML CSS","Frelanser","Описание","Live <~>",false,"Cached >=", "https://xarn0.github.io/work8/")   
+        +CreatCard("@/static/image/fler.jpg","HTML CSS","Frelanser","Описание","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/work8/")   
         //- +CreatCard("@/static/image/glass.jpg","HTML CSS","Frelanser","Описание","Live <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  
 </template>
 

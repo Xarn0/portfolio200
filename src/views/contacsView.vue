@@ -3,7 +3,7 @@ include ../assets/pugmix/mixin.pug
 section.public_margin
     homeContact
         slot
-            +CreateH("contacts",false,false)
+            +CreateH("Контакты",false,false)
 </template>
 
 <script>

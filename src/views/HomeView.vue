@@ -7,10 +7,10 @@ div(class="home")
     homeSkills
     homeAboutPreview
       slot
-        +CreateH("about-me")
+        +CreateH("Обо мне")
     homeContact
       slot
-        +CreateH("contacts")
+        +CreateH("Контакты")
     
 </template>
 

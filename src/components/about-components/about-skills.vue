@@ -2,13 +2,13 @@
 include ../../assets/pugmix/mixin.pug
 .container.aboutSkills
     .aboutSkills__header 
-        +CreateH("skills",false,false)
+        +CreateH("Навыки",false,false)
     .aboutSkills__content.public_margin 
-        +createSkill("Languages","Python Javascript PHP ")
-        +createSkill("Other","HTML CSS jinja scss")
-        +createSkill("Tools","VSCode Linux Git Font Awesome boxicons")
-        +createSkill("Databases","SQL MYSQL")
-        +createSkill("Frameworks","VUE Django")
+        +createSkill("Языки","Python Javascript PHP ")
+        +createSkill("Разметка","HTML CSS jinja scss")
+        +createSkill("Инструменты","VSCode Linux Git Font Awesome boxicons")
+        +createSkill("Базы данных","SQL MYSQL")
+        +createSkill("Фреймворки","VUE Django Nuxt2 djoser")
 
 
 </template>

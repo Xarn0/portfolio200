@@ -15,7 +15,7 @@ footer.footer.public_margin
                     @tot_91
                 p Web front-end developer
             .footer__media
-                h3 media
+                h3 медия
                 ul
                     li 
                         a(href="https://github.com/Xarn0",target="_blank")

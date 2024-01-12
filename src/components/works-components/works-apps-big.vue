@@ -2,7 +2,7 @@
 include ../../assets/pugmix/mixin.pug
 .conteiner.worksApps.public_margin
     .worksApps__header 
-        +CreateH("complete-apps",false,false)
+        +CreateH("Работки",false,false)
     .worksApps__content.public_margin 
         +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Live <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
         +CreatCard("@/static/image/OVE.jpg","HTML CSS ","O.A.DEVOLD","Описание: Обычнвя верстка, неадаптивная ","Live <~>",false,"Cached >=","https://xarn0.github.io/tem-25/")

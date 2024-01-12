@@ -1,11 +1,11 @@
 <template lang="pug">
 include ../assets/pugmix/mixin.pug
 .container
-    div.public_margin      
-        +CreatBread("about-me","Кто я?")
+    div.public_margin     
+        +CreatBread("Обо мне","Кто я?")
     homeAboutPreview.public_margin
       slot
-          +CreateH("about-me",false,false) 
+          +CreateH("Обо мне",false,false) 
     aboutSkills.public_margin
 </template>
 

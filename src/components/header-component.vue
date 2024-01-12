@@ -15,6 +15,7 @@ header.header.container
                
             li.header__item
                 router-link(:to="{name:'home'}").
+                    
                     {{ burgerMenu.home }}
             li.header__item
                 router-link(:to="{name:'works'}").
@@ -79,10 +80,10 @@ export default {
             burger:false,
             burgerContent:false,
             burgerMenu:{
-                home:"home",
-                works:"works",
-                about:"about-me",
-                contact:"contacts"
+                home:"Главная",
+                works:"Работки",
+                about:"Обо мне",
+                contact:"Контакты"
             }
         }
     }

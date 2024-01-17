@@ -52,7 +52,7 @@ export default{
         outline: none;
         opacity: .5;
         border: 1px solid #ccc;
-        background:rgb(92, 84, 84);
+        background:transparent;
         border-radius: 15px;
         font-size: 18px;
         cursor: pointer;

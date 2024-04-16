@@ -4,6 +4,7 @@ include ../../assets/pugmix/mixin.pug
     .worksApps__header 
         +CreateH("Работки",false,false)
     .worksApps__content.public_margin 
+        +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
         +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
         +CreatCard("@/static/image/OVE.jpg","HTML CSS ","фирма O.A.DEVOLD","Описание: Обычнвя верстка, неадаптивная ","Открыть <~>",false,"Cached >=","https://xarn0.github.io/tem-25/")
         +CreatCard("@/static/image/flore.jpg","HTML SCSS Pug VUE","Флорист","Описание: Верстка","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/newWorkWeb/") 
@@ -17,31 +18,27 @@ include ../../assets/pugmix/mixin.pug
 
 </template>
 <script>
-
 export default {
-    name:"works-apps-big",
-    data(){
-        return{
-
-        }
-    }
-}
-
+	name: "works-apps-big",
+	data() {
+		return {};
+	},
+};
 </script>
 
 <style lang="scss" scoped>
-.worksApps{
-    &__content{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: flex-start;
-    }
-    .card{
-        align-self: start;
-    }
+.worksApps {
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		align-items: flex-start;
+	}
+	.card {
+		align-self: start;
+	}
 }
-.project__btn{
-    margin-left: 16px;
+.project__btn {
+	margin-left: 16px;
 }
 </style>

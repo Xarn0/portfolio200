@@ -4,9 +4,10 @@ include ../../assets/pugmix/mixin.pug
     .worksApps__header 
         +CreateH("Работки",false,false)
     .worksApps__content.public_margin 
+        +CreatCard("@/static/image/tz4.png","HTML CSS JS","Тола","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/tz4/") 
         +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
-        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
-        +CreatCard("@/static/image/OVE.jpg","HTML CSS ","фирма O.A.DEVOLD","Описание: Обычнвя верстка, неадаптивная ","Открыть <~>",false,"Cached >=","https://xarn0.github.io/tem-25/")
+        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/")
+        +CreatCard("@/static/image/whitetex.png","HTML SCSS vuetify VUE","белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/")
         +CreatCard("@/static/image/flore.jpg","HTML SCSS Pug VUE","Флорист","Описание: Верстка","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/newWorkWeb/") 
         +CreatCard("@/static/image/fler.jpg","HTML CSS","Фрилансер","Описание: Адаптивный ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/work8/")   
         +CreatCard("@/static/image/work8.jpg","HTML CSS","фирма Sage","Описание: Адаптивный","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  
@@ -22,7 +23,7 @@ export default {
 	name: "works-apps-big",
 	data() {
 		return {};
-	},
+	}
 };
 </script>
 

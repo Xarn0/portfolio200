@@ -4,13 +4,15 @@ include ../assets/pugmix/mixin.pug
 section.container
     +CreateH("Проекты",true)
     .project-list
+        +CreatCard("@/static/image/tz5.png","HTML css js","тестовое задание одной компании","Описание: Верстка, тз одной из компаний. использовал чистый html - css - js, здесь предоставляли три сайта на выбор, чтобы сделать такой же дизайн как у них, в задании было нужно реализовать следующие: 1 картинка 1 параграф 1 заголовок и сделать сементику страницы  ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/in-tz/")
+        +CreatCard("@/static/image/delivery.png","HTML scss vue typescript","Реализовал интересный слайдер","Описание: Сайт с слайдером. использовал vue,ts - Сайт адаптивный, слайдер позволяет видить какие товары идут следующие и при нажатие на них(снизу) переходит на слайд, так же доступна возможномть выше выбрать категорию. она позволяет переключать слайды между категориями ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/delivery/") 
+        +CreatCard("@/static/image/apis.png","HTML scss vue typescript","Сделал мини-приложение погоды и лента новостей через api","Описание: мини-приложение. использовал vue,ts - приложение работаю так: указываешь город в поле и автоматически показывается погода в это городе, второе приложение ленты просто выводит сообщение новостей через api, нажми на обновить ленту и добавится ещё 5 статей ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/apis-apps/") 
+        //- +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
+        //- +CreatCard("@/static/image/whitetechnique.43c3745a.jpg","HTML SCSS vuetify VUE","Белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 
 
-        +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
-        +CreatCard("@/static/image/whitetechnique.43c3745a.jpg","HTML SCSS vuetify VUE","Белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 
 
-
-        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
-        +CreatCard("@/static/image/whitetex.png","HTML SCSS vuetify VUE","белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 
+        //- +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
+        //- +CreatCard("@/static/image/whitetex.png","HTML SCSS vuetify VUE","белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 
         //- +CreatCard("@/static/image/work8.jpg","HTML CSS","Sage","Описание: Адаптивный","Live <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  
         //- +CreatCard("@/static/image/fler.jpg","HTML CSS","Frelanser","Описание","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/work8/")   
         //- +CreatCard("@/static/image/glass.jpg","HTML CSS","Frelanser","Описание","Live <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  

@@ -4,13 +4,10 @@ include ../assets/pugmix/mixin.pug
 section.container
     +CreateH("Проекты",true)
     .project-list
-<<<<<<< HEAD
+
         +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
         +CreatCard("@/static/image/whitetechnique.43c3745a.jpg","HTML SCSS vuetify VUE","Белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 
-=======
-        +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Агенство","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
-        +CreatCard("@/static/image/tz4.png","HTML CSS JS","Тола","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/tz4/") 
->>>>>>> 23d15df6ed885de041388e9c4ff92d38fc46983e
+
 
         +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","lawyer","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
         +CreatCard("@/static/image/whitetex.png","HTML SCSS vuetify VUE","белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/") 

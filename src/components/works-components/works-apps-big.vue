@@ -3,6 +3,7 @@ include ../../assets/pugmix/mixin.pug
 .conteiner.worksApps.public_margin
     .worksApps__header 
         +CreateH("Работки",false,false)
+<<<<<<< HEAD
     .worksApps__content.public_margin
 
         +CreatCard("@/static/image/delivery.png","HTML scss vue typescript","Реализовал интересный слайдер","Описание: Сайт с слайдером. использовал vue,ts - Сайт адаптивный, слайдер позволяет видить какие товары идут следующие и при нажатие на них(снизу) переходит на слайд, так же доступна возможномть выше выбрать категорию. она позволяет переключать слайды между категориями ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/apis-apps/") 
@@ -17,6 +18,13 @@ include ../../assets/pugmix/mixin.pug
         +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
         +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/") 
         //- +CreatCard("@/static/image/OVE.jpg","HTML CSS ","фирма O.A.DEVOLD","Описание: Обычнвя верстка, неадаптивная ","Открыть <~>",false,"Cached >=","https://xarn0.github.io/tem-25/")
+=======
+    .worksApps__content.public_margin 
+        +CreatCard("@/static/image/tz4.png","HTML CSS JS","Тола","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/tz4/") 
+        +CreatCard("@/static/image/agencyStudio.jpg","HTML SCSS vuetify VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/agencystudio/") 
+        +CreatCard("@/static/image/lawyer.jpeg","HTML SCSS Pug VUE","Юристы","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/lawyer/")
+        +CreatCard("@/static/image/whitetex.png","HTML SCSS vuetify VUE","белая техника","Описание: Верстка ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/whitetechnique/")
+>>>>>>> 23d15df6ed885de041388e9c4ff92d38fc46983e
         +CreatCard("@/static/image/flore.jpg","HTML SCSS Pug VUE","Флорист","Описание: Верстка","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/newWorkWeb/") 
         //- +CreatCard("@/static/image/fler.jpg","HTML CSS","Фрилансер","Описание: Адаптивный ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/work8/")   
         //- +CreatCard("@/static/image/work8.jpg","HTML CSS","фирма Sage","Описание: Адаптивный","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/Maket/")  

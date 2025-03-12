@@ -4,7 +4,7 @@ include ../assets/pugmix/mixin.pug
 section.container
 	+CreateH("Проекты",true)
 	.project-list
-		+CreatCard("@/static/image/chocolate.png","scss vue vuetify","Создание playable-ads","Описание: создание макета для прродаже шоколада. ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/tz8/")
+		+CreatCard("@/static/image/chocolate.png","scss vue vuetify","Создание playable-ads","Описание: создание макета для прродаже шоколада. ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/chocolate/")
 		+CreatCard("@/static/image/tz5.png","HTML css js","тестовое задание одной компании","Описание: Верстка, тз одной из компаний. использовал чистый html - css - js, здесь предоставляли три сайта на выбор, чтобы сделать такой же дизайн как у них, в задании было нужно реализовать следующие: 1 картинка 1 параграф 1 заголовок и сделать сементику страницы  ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/in-tz/")
 		+CreatCard("@/static/image/tz8.png","HTML css js","Создание playable-ads","Описание: Реализовать интерактивный Playable Ads, где игроку нужно выбрать одну из трех закрытых карточек, за которой скрыт приз. Карточки перемешиваются, и игрок делает выбор. В конце отображается результат (выигрыш или проигрыш). ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/tz8/")
 		+CreatCard("@/static/image/delivery.png","HTML scss vue typescript","Реализовал интересный слайдер","Описание: Сайт с слайдером. использовал vue,ts - Сайт адаптивный, слайдер позволяет видить какие товары идут следующие и при нажатие на них(снизу) переходит на слайд, так же доступна возможномть выше выбрать категорию. она позволяет переключать слайды между категориями ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/delivery/") 

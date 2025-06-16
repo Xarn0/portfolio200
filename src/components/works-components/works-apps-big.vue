@@ -6,6 +6,7 @@ include ../../assets/pugmix/mixin.pug
 
     .worksApps__content.public_margin
 
+        +CreatCard("@/static/image/task-board.png","Html css js","Создание Task Board","Описание: доска для задач с CRUD ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/task-board") 
         +CreatCard("@/static/image/chocolate.png","scss vue vuetify","Создание playable-ads","Описание: создание макета для прродаже шоколада. ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/chocolate/") 
         +CreatCard("@/static/image/tz8.png","HTML css js","Создание playable-ads","Описание: Реализовать интерактивный Playable Ads, где игроку нужно выбрать одну из трех закрытых карточек, за которой скрыт приз. Карточки перемешиваются, и игрок делает выбор. В конце отображается результат (выигрыш или проигрыш). ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/chocolate/") 
         +CreatCard("@/static/image/delivery.png","HTML scss vue typescript","Реализовал интересный слайдер","Описание: Сайт с слайдером. использовал vue,ts - Сайт адаптивный, слайдер позволяет видить какие товары идут следующие и при нажатие на них(снизу) переходит на слайд, так же доступна возможномть выше выбрать категорию. она позволяет переключать слайды между категориями ","Открыть <~>",false,"Cached >=", "https://xarn0.github.io/delivery/") 

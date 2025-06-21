@@ -7,26 +7,23 @@ section.public_margin
 </template>
 
 <script>
-import homeContact from '@/components/home-contact.vue';
+import homeContact from "@/components/home-contact.vue";
 
-export default{
-    components:{
-        homeContact
-    }
-}
-
-
-
+export default {
+	components: {
+		homeContact
+	}
+};
 </script>
 
 <style lang="scss" scoped>
-html{
-    height: 100vh;
+html {
+	height: 100vh;
 }
 .homeContacts {
-    height: 50.7vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
+	height: 50.7vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 </style>

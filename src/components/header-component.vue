@@ -29,9 +29,6 @@ header.header.container
                 router-link(:to="{name:'contact'}").
                        {{ burgerMenu.contact }} 
                 
-            li.header__item
-                select.header__select
-                    option(value="ru") ru 
                   
         
         div(@click="burgerContent = !burgerContent ").adaptive-hav
@@ -68,96 +65,85 @@ header.header.container
 </template>
 
 <script>
-
-
-
-
-
 export default {
-    name: "my-header",
-    data(){
-        return{
-            burger:false,
-            burgerContent:false,
-            burgerMenu:{
-                home:"Главная",
-                works:"Работки",
-                about:"Обо мне",
-                contact:"Контакты"
-            }
-        }
-    }
-}
+	name: "my-header",
+	data() {
+		return {
+			burger: false,
+			burgerContent: false,
+			burgerMenu: {
+				home: "Главная",
+				works: "Проекты",
+				about: "Обо мне",
+				contact: "Контакты"
+			}
+		};
+	}
+};
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 @import "@/assets/scss/style";
-.header{
+.header {
+	&__line {
+		position: absolute;
+		top: 0;
 
-    &__line{
-        position: absolute;
-        top:0;
-       
-        height: 240px;
-        left: 20px;
-        display: flex;
-        flex-direction: column;
-        gap:7px;
-        // align-items: flex-end;
-        // justify-content: flex-end;
-        &::before{
-            content: "";
-            height: 40%;
-            width: 1.87px;
-            display: block;
-            margin: 0 auto;
-            background: #ABB2BF
-        }
-       
-    }
-    &__icon{
-        border-radius: 50%;
-        width: 35px;
-        height: 35px;
-       
-       
-        &:nth-of-type(1){
-           background: url("../static/icon/github.svg");
-           background-repeat: no-repeat;
-           background-size: cover;
-           background-position: center;  
-           
-        }
-        &:nth-of-type(2){
-           background: url("../static/icon/internet.svg");
-           background-repeat: no-repeat;
-           background-size: cover;
-           background-position: center;  
-           
-        }
-    }
+		height: 240px;
+		left: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 7px;
+		// align-items: flex-end;
+		// justify-content: flex-end;
+		&::before {
+			content: "";
+			height: 40%;
+			width: 1.87px;
+			display: block;
+			margin: 0 auto;
+			background: #abb2bf;
+		}
+	}
+	&__icon {
+		border-radius: 50%;
+		width: 35px;
+		height: 35px;
 
+		&:nth-of-type(1) {
+			background: url("../static/icon/github.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		&:nth-of-type(2) {
+			background: url("../static/icon/internet.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+	}
 }
-li.header__item+li.header__item {
-    &::before {
-        content: "#";
-        font-weight: 400px;
-        color: $color-header-link-icon;
-    }
+li.header__item + li.header__item {
+	&::before {
+		content: "#";
+		font-weight: 400px;
+		color: $color-header-link-icon;
+	}
 }
 
 li.header__item:last-child {
-    
-    &::before {
-        content: '' !important;
-        
-    }
+	&::before {
+		content: "" !important;
+	}
 }
-.burger-name-enter,.burger-name-leave-to{
-  opacity: 0;
+.burger-name-enter,
+.burger-name-leave-to {
+	opacity: 0;
 }
 
-.burger-name-enter-active,.burger-name-leave-active{
-  transition: opacity 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.burger-name-enter-active,
+.burger-name-leave-active {
+	transition: opacity 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 </style>

@@ -47,7 +47,7 @@ export default {
 	p {
 		margin-bottom: 10px;
 	}
-	padding-top: 20px;
+	padding-top: 30px;
 	&__container {
 		padding-top: 40px;
 	}

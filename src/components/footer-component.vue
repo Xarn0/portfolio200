@@ -21,7 +21,7 @@ footer.footer.public_margin
                         a(href="https://github.com/Xarn0",target="_blank")
                             img(src="@/static/icon/github.svg", alt="", srcset="") 
                     li 
-                        a(href="mailto:madira_a@mail.ru",target="_blank")
+                        a(href="mailto:xouli@list.ru",target="_blank")
                             img(src="@/static/icon/mail.svg", alt="", srcset="") 
                     li 
                         a(href="http://t.me/tot_91",target="_blank")

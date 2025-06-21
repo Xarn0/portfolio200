@@ -2,7 +2,7 @@
 include ../../assets/pugmix/mixin.pug
 .conteiner.worksApps.public_margin
     .worksApps__header 
-        +CreateH("Работки",false,false)
+       
 
     .worksApps__content.public_margin
 
